@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    div.container
+        h1= title
+        p Welcome to #{title}
+    div.container
+        header
+            h1 A Chat application with Node.js and Socket.io
+        input(type='text')#pseudoInput
+        button#pseudoSet Set Pseudo
+        div#chatEntries
+        div#chatControls
+            input(type='text')#messageInput
+            button#submit Send
