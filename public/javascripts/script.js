@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost');
+var socket = io.connect('http://stark-ridge-8303.herokuapp.com/');
 socket.on('message', function(data) {
     console.log(data);
 });
