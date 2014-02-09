@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "NinjaMessanger",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,7 +7,27 @@
   },
   "dependencies": {
     "socket.io": "*",
-    "express": "3.4.8",
-    "jade": "*"
-  }
+    "express": "~3.4.8",
+    "jade": "*",
+    "logfmt": "~0.20.0"
+  },
+  "description": "Awesomeness with websockets and nodejs and socket.io",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theonlyjames/NinjaWebsocketMessenger.git"
+  },
+  "keywords": [
+    "websocket",
+    "node",
+    "nodejs",
+    "socket.io"
+  ],
+  "author": "James Khatiblou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theonlyjames/NinjaWebsocketMessenger/issues"
+  },
+  "homepage": "https://github.com/theonlyjames/NinjaWebsocketMessenger"
 }
